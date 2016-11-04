@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/NoFragmentTabs.iml" filepath="$PROJECT_DIR$/NoFragmentTabs.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CustomTabs.iml" filepath="$PROJECT_DIR$/CustomTabs.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>
