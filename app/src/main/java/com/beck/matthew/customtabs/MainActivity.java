@@ -44,6 +44,7 @@ public class MainActivity extends Activity {
         tabHost = (TabHost) findViewById(android.R.id.tabhost);
         tabHost.setup();
 
+        //the third parameter is the icon for the tab
         setupTab("Tab1", R.id.tab1, R.mipmap.ic_launcher);
         setupTab("Tab 2", R.id.tab2, R.mipmap.ic_launcher);
 
