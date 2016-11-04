@@ -34,7 +34,7 @@ public class MainActivity extends Activity {
 
     private TabHost tabHost;
     private ViewPager viewPager;
-    boolean[] hasOpened;
+    boolean[] hasOpened;// this variable is for the viewpager.addonlayoutchangelistener
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -44,6 +44,7 @@ public class MainActivity extends Activity {
         tabHost = (TabHost) findViewById(android.R.id.tabhost);
         tabHost.setup();
 
+        //add any tabs you have here, the third parameter is for a icon
         setupTab("Tab1", R.id.tab1, R.mipmap.ic_launcher);
         setupTab("Tab 2", R.id.tab2, R.mipmap.ic_launcher);
 
